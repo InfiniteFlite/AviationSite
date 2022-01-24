@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html  lang="en">
  <head>
-   <style>
-  table, th, td {
-    border:1px solid black;
-  }
-  </style>
    <title>The Ultimate Aviation Information Site</title> <!--I chose ths title b/c it has the keywords of it being about information and aviation-->
   <link rel="icon" type="image/x-icon" href="B2.jpg">
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
  </head>
   <body>
-    <img src="boeing-737.svg" width="500" height="300" alt="Image of a Boeing 737"> <!--I chose a SVG b/c there is no background and I want high quality-->
-    <h1> Welcome to the Aviation Site &#9992; </h1>
-   <p>
+   <h1 class=stickyTop> Welcome to the Aviation Site &#9992; </h1>
+    <img src="boeing-737.svg" alt="Image of a Boeing 737" class="a737"> <!--I chose a SVG b/c there is no background and I want high quality-->
+   <p class="mainBody">
     I have always been very interested in Aviation. I hope to go in to Aerospace Engineering.
     I find all types of aviation interesting:<br> Commercial, General, and military
   </p>
-    <table style="width:100%">
+    <table>
   <tr>
     <th>Aircraft</th>
     <th>Manufacturer</th>
@@ -30,22 +26,22 @@
     <td>A330</td>
     <td>Airbus</td>
   </tr>
-     <tr>
+  <tr>
     <td>F22</td>
     <td>Lockheed Martin</td>
-  </tr>
+</tr>
      <tr>
     <td>Archer</td>
     <td>Piper</td>
   </tr>
-     <tr>
+  <tr>
     <td>TY-144</td>
     <td>Tupelov</td>
   </tr>
 </table>
    <h2>Press this image to do nothing useful except reload the page.</h2>
    <a href="index.html">
-   <img src="787.jpg" width="700" height="450" alt="Image of a Boeing 787"> <!--I chose a JPG b/c there is too much detail for a svg but I don't need the extra data of a PNG-->
+   <img src="787.jpg" alt="Image of a Boeing 787" class="a787"> <!--I chose a JPG b/c there is too much detail for a svg but I don't need the extra data of a PNG-->
    </a>
   </body>
 </html>

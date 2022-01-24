@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Times;
+}
+
+table, th, td {
+  border:1px solid black;
+
+}
+table{
+  width:70%;
+  height:100%;
+  float:right;
+}
+
+h1.stickyTop{
+  color: orange;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  margin-top: 0;
+}
+
+img.a787{
+  width: 100%;
+}
+
+img.a737{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+p.mainBody{
+  width:30%;
+  font-size: 30px;
+  border-color:grey;
+  border-radius: 5px;
+  margin-top: 0;
+  float:left;
+}
