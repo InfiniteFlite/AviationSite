@@ -4,37 +4,50 @@ body{
 
 table, th, td {
   border:1px solid black;
+  resize: vertical;
+  object-fit: contain;
 
 }
 table{
-  width:70%;
+  width:69%;
   height:100%;
   float:right;
+  margin:auto;
 }
 
-h1.stickyTop{
+#tableDiv{
+  height:100%;
+  resize: vertical;
+}
+
+#stickyTop{
   color: orange;
   position: sticky;
   top: 0;
   background-color: black;
-  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
-img.a787{
+#a787{
   width: 100%;
 }
 
-img.a737{
+#a737{
   width: 50%;
   margin: auto;
   display: block;
 }
 
-p.mainBody{
+#mainBody{
   width:30%;
   font-size: 30px;
-  border-color:grey;
-  border-radius: 5px;
+  border: 1px solid black;
   margin-top: 0;
   float:left;
+}
+#torefresh{
+  display: block;
+  float:left;
+  padding-top:50px;
 }
